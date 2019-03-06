@@ -5159,7 +5159,7 @@ var GenericContentExtractor = {
       return null;
     }
 
-    return normalizeSpaces($.html(node));
+    return $.html(node);
   }
 };
 
